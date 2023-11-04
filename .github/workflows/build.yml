@@ -17,7 +17,7 @@ jobs:
         run: yarn install
       - name: Lint the Project
         run: yarn lint
-       - name: Start Application
+      - name: Start Application
         run: yarn start &
       - name: Wait for Application
         run: sleep 10
